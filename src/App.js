@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.scss";
+import JokeList from "./components/JokeList";
 
 function App() {
   return (
     <div className="App">
-      <h1>Programming Jokes</h1>
+      <h1>Pick Your Jokes</h1>
+      <JokeList />
     </div>
   );
 }
