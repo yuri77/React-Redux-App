@@ -1,0 +1,1 @@
+export { jokeReducer } from "./jokeReducer";
